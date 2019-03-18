@@ -1,0 +1,62 @@
+$head: 2em;
+$para: 1em;
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+}
+#title { font-size: 5em; }
+#description { font-size: 3em; }
+
+form { 
+  display: flex;
+  flex-wrap: wrap;
+  label {
+    font-size: $head;
+    margin: 0 auto;
+    width: 70%;
+    }
+  #name, #email, #number {
+    width: 30%;
+    }
+  input {
+    font-size: $para;
+    margin: 0 auto 20px;
+    text-align: center;
+    }
+  p {
+    font-size: $head;
+    margin-top: 40px;
+    width: 100%;
+    }
+  #dropdown {
+    font-size: $para;
+    margin: 0 auto;
+    width: 20%;
+    }
+  ol {
+    font-size: $head;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  textarea {
+    font-size: $para;
+    margin: 0 5vh;
+    width: 100%;
+    }
+  button {
+    background-color: black;
+    border: 10px dashed white;
+    color: white;
+    cursor: pointer;
+    font-size: 4vh;
+    margin: 4vh auto;
+    padding: 30px;
+    text-transform: uppercase;
+    }
+}

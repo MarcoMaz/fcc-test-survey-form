@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Test : Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">FCC's Survey Form</h1>
+<p id="description">Fill out the following fields so we can know what you think!</p>
+<form id="survey-form" action="/mailinglist.php">
+  <label id="name-label">Name: (required)</label>
+  <input type="text" id="name" placeholder=" write your name" required>
+  <label id="email-label">Email: (required)</label>
+  <input type="email" id="email" placeholder=" write your email" required>
+  <label id="number-label">Number:</label>
+  <input type="number" id="number" min="0" max="5" placeholder=" select a number" >
+  <p>What's your favorite grunge band?</p>
+  <select id="dropdown">
+    <option>Nirvana</option>
+    <option>Alice in Chains</option>
+    <option>Pearl Jam</option>
+    <option>Soundgarden</option>
+  </select>
+  <p>How old are you?</p>
+  <ol>
+    <li><input type="radio" name="age" value="under24" checked> under 24</li>
+    <li><input type="radio" name="age" value="25-34"> 25 to 34</li>
+    <li><input type="radio" name="age" value="35-44"> 35 to 44</li>
+    <li><input type="radio" name="age" value="over45"> over 45</li>
+  </ol>
+  <p>What's your favorite music?</p>
+  <ol>
+    <li><input type="radio" name="music" value="rock" checked> rock</li>
+    <li><input type="radio" name="music" value="minimal"> techno</li>
+    <li><input type="radio" name="music" value="classical"> classical</li>
+  </ol>
+  <p>Which instruments do you wanna learn?</p>
+  <ol>
+    <li><input type="checkbox" name="instruments" value="drums" checked> Drums</li>
+    <li><input type="checkbox" name="instruments" value="guitar"> Guitar</li>
+    <li><input type="checkbox" name="instruments" value="bass"> Bass</li>
+    <li><input type="checkbox" name="instruments" value="keyboard"> Keyboard</li>
+  </ol>
+  <p><em>Additional informations</em></p>
+  <textarea cols="50" rows="20">I don't like mondays..</textarea>
+  <button id="submit">Submit</button>
+</form>
+  
+  
+
+</body>
+
+</html>
