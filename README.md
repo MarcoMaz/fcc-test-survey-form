@@ -9,9 +9,9 @@
 </ul>
 <h2>Where to find the project...</h2>
 <p>
-Click <a href="https://s.codepen.io/vinniezappa/debug/PLzaMJ/nqAwvGxmmDdr" target="_blank"> here</a>
+Click <a href="https://s.codepen.io/vinniezappa/full/PLzaMJ/nqAwvGxmmDdr" target="_blank"> here</a>
 or in the image below <br/><br/>
-<a href="https://s.codepen.io/vinniezappa/debug/PLzaMJ/nqAwvGxmmDdr" target="_blank">
+<a href="https://s.codepen.io/vinniezappa/full/PLzaMJ/nqAwvGxmmDdr" target="_blank">
 <img src="https://www.dropbox.com/s/chzhymsfcvwmy0m/10-survey-form.jpg?raw=1" target="_blank">
 </a>
 </p>
